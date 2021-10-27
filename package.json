@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "node-sass": "node-sass --watch assets/scss/login.scss assets/css/login.css"
+      },
+      "devDependencies": {
+        "node-sass": "^6.0.1"
+      }
+}
