@@ -1,8 +1,11 @@
 {
     "scripts": {
         "node-sass": "node-sass --watch assets/scss/login.scss assets/css/login.css"
-      },
-      "devDependencies": {
+    },
+    "devDependencies": {
         "node-sass": "^6.0.1"
-      }
+    },
+    "dependencies": {
+        "live-server": "^1.2.1"
+    }
 }
