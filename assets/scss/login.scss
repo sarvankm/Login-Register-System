@@ -54,14 +54,32 @@
             font-size: 13px;
             margin-left: 5px;
         }
-        .checkbox-container {
-            margin: 40px 0;
+        .checkbox-registerlink-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .checkbox-container{
+                margin: 40px 0;
             display: flex;
             align-items: center;
-            input {
-                width: 16px;
-                height: 16px;
+            justify-content: space-between;
+                input {
+                    width: 16px;
+                    height: 16px;
+                }
             }
+            
+             .register-link{
+                a{
+                    text-decoration: none;
+                    color: #e5e5e5;
+                    font-size: 13px;
+                    &:hover{
+                        color: white;
+                    }
+                }
+             }
+           
         }
         .btn {
             display: flex;
