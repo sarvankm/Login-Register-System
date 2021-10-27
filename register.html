@@ -23,30 +23,36 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <main>
         <div class='forcolor'></div>
-        <section class="login-container">
+        <section class="register-container">
             <span class="logo-container">
                 <i class="zmdi zmdi-landscape"></i>
             </span>
-            <h1>LOG IN</h1>
-            <form>
+            <h1>SIGN UP</h1>
+            <form class="register-form">
                 <input type="text" placeholder="Username">
                 <i class="fas fa-user"></i>
                 <span class="text-danger"></span>
-                <input type="password" placeholder="Password">
+                <input class="register-input" type="email" placeholder="Email">
+                <i class="fas fa-envelope"></i>
+                <span class="text-danger"></span>
+                <input class="register-input" type="password" placeholder="Password">
                 <i class="fas fa-lock"></i>
                 <span class="text-danger"></span>
-                <div class="checkbox-container">
+                <input class="register-input" type="password" placeholder="Confirm Password">
+                <i class="fas fa-lock"></i>
+                <span class="text-danger"></span>
+                <div class="checkbox-container register-input">
                     <input type="checkbox" id="check">
                     <label for="check">Remember me</label>
                 </div>
                 <div class="btn">
-                    <button type="submit">Login</button>
+                    <button type="submit">Sign Up</button>
                 </div>
             </form>
-            <a class="txt" href="#">Forgot Password?</a>
         </section>
     </main>
 </body>
