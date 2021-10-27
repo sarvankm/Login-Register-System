@@ -4,12 +4,13 @@
 }
 body{
     margin: 0;
+    background: url('../../assets/img/background.jpg') no-repeat center center fixed;
 }
 main{
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-image: url('/Users/memme/Desktop/Login_Register_System/assets/img/background.jpg');
+  
     background-size: cover;
     position: relative;
     z-index: 1;
